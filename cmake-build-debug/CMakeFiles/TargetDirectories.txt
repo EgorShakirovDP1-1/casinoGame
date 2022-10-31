@@ -1,0 +1,3 @@
+C:/Users/11DEShakirov/Downloads/gypsy/cmake-build-debug/CMakeFiles/Downloads.dir
+C:/Users/11DEShakirov/Downloads/gypsy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/11DEShakirov/Downloads/gypsy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
