@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/11DEShakirov/Downloads/gypsy
+# Install script for directory: C:/Users/11DEShakirov/CLionProject/Cars
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Downloads")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Cars")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/11DEShakirov/Downloads/gypsy/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/11DEShakirov/CLionProject/Cars/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

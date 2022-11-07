@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Downloads
+# Project: Cars
 # Configurations: Debug
 # =============================================================================
 
@@ -39,49 +39,49 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/11DEShakirov/Downloads/gypsy/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/11DEShakirov/CLionProject/Cars/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Downloads
+# Object build statements for EXECUTABLE target Cars
 
 
 #############################################
-# Order-only phony target for Downloads
+# Order-only phony target for Cars
 
-build cmake_object_order_depends_target_Downloads: phony || CMakeFiles/Downloads.dir
+build cmake_object_order_depends_target_Cars: phony || CMakeFiles/Cars.dir
 
-build CMakeFiles/Downloads.dir/gypsy.cpp.obj: CXX_COMPILER__Downloads_Debug C$:/Users/11DEShakirov/Downloads/gypsy/gypsy.cpp || cmake_object_order_depends_target_Downloads
-  DEP_FILE = CMakeFiles\Downloads.dir\gypsy.cpp.obj.d
+build CMakeFiles/Cars.dir/main.cpp.obj: CXX_COMPILER__Cars_Debug C$:/Users/11DEShakirov/CLionProject/Cars/main.cpp || cmake_object_order_depends_target_Cars
+  DEP_FILE = CMakeFiles\Cars.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\Downloads.dir
-  OBJECT_FILE_DIR = CMakeFiles\Downloads.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Downloads.dir\
-  TARGET_PDB = Downloads.pdb
+  OBJECT_DIR = CMakeFiles\Cars.dir
+  OBJECT_FILE_DIR = CMakeFiles\Cars.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Cars.dir\
+  TARGET_PDB = Cars.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Downloads
+# Link build statements for EXECUTABLE target Cars
 
 
 #############################################
-# Link the executable Downloads.exe
+# Link the executable Cars.exe
 
-build Downloads.exe: CXX_EXECUTABLE_LINKER__Downloads_Debug CMakeFiles/Downloads.dir/gypsy.cpp.obj
+build Cars.exe: CXX_EXECUTABLE_LINKER__Cars_Debug CMakeFiles/Cars.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Downloads.dir
+  OBJECT_DIR = CMakeFiles\Cars.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Downloads.dir\
-  TARGET_FILE = Downloads.exe
-  TARGET_IMPLIB = libDownloads.dll.a
-  TARGET_PDB = Downloads.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\Cars.dir\
+  TARGET_FILE = Cars.exe
+  TARGET_IMPLIB = libCars.dll.a
+  TARGET_PDB = Cars.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\11DEShakirov\Downloads\gypsy\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\11DEShakirov\CLionProject\Cars\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\11DEShakirov\Downloads\gypsy\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\11DEShakirov\Downloads\gypsy -BC:\Users\11DEShakirov\Downloads\gypsy\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\11DEShakirov\CLionProject\Cars\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\11DEShakirov\CLionProject\Cars -BC:\Users\11DEShakirov\CLionProject\Cars\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -102,7 +102,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Downloads: phony Downloads.exe
+build Cars: phony Cars.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,9 +110,9 @@ build Downloads: phony Downloads.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/11DEShakirov/Downloads/gypsy/cmake-build-debug
+# Folder: C:/Users/11DEShakirov/CLionProject/Cars/cmake-build-debug
 
-build all: phony Downloads.exe
+build all: phony Cars.exe
 
 # =============================================================================
 # Built-in targets
